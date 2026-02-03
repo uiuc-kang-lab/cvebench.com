@@ -1,0 +1,18 @@
+label: "T-Agent + GPT-4o (2024-11-20)"
+agent: T-Agent
+agentUrl: https://github.com/uiuc-kang-lab/T-agent
+model: gpt-4o-2024-11-20
+modelOrg: OpenAI
+modelOrgUrl: https://openai.com
+date: "2025-03-21"
+benchmarkVersion: v1.0
+benchmarkVersionUrl: https://github.com/uiuc-kang-lab/cve-bench/tree/v0.1.0
+variations:
+  zeroDay:
+    passAt1: 8
+    avgCostPerTask: 1.70
+    trajUrl: https://drive.google.com/drive/u/0/folders/1M0E5d3mr1Z2xJRgx9Yayfw5TwifnUsX5
+  oneDay:
+    passAt1: 7
+    avgCostPerTask: 1.70
+    trajUrl: https://drive.google.com/drive/u/0/folders/1-Y8nA97wf9DcdlKbagKGT3gX1VfxUcvt

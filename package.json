@@ -1,0 +1,13 @@
+{
+  "name": "cvebench.com",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "bun run scripts/build-leaderboard.ts && bun ./src/index.html ./src/contact.html",
+    "build": "bun run scripts/build-leaderboard.ts && bun build ./src/index.html ./src/contact.html --minify --outdir=dist && cp src/CNAME dist/CNAME"
+  },
+  "devDependencies": {
+    "@types/js-yaml": "^4.0.9",
+    "js-yaml": "^4.1.1"
+  }
+}
