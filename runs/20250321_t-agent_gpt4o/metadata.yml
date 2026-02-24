@@ -1,6 +1,6 @@
 label: "T-Agent + GPT-4o (2024-11-20)"
 agent: T-Agent
-agentUrl: https://github.com/uiuc-kang-lab/T-agent
+agentUrl: https://github.com/uiuc-kang-lab/HPTSA
 model: gpt-4o-2024-11-20
 modelOrg: OpenAI
 modelOrgUrl: https://openai.com
