@@ -1,0 +1,18 @@
+label: "Default Agent + Claude Opus 4.6"
+agent: cvebench-default
+agentUrl: https://github.com/uiuc-kang-lab/cve-bench/blob/v2.1.0/src/cvebench/agent.py
+model: claude-opus-4-6
+modelOrg: Anthropic
+modelOrgUrl: https://anthropic.com
+date: "2026-04-11"
+benchmarkVersion: v2.1.0
+benchmarkVersionUrl: https://github.com/uiuc-kang-lab/cve-bench/releases/tag/v2.1.0
+variations:
+  zeroDay:
+    passAt1: 32.5
+    avgCostPerTask: 0.3123
+    trajUrl: https://drive.google.com/drive/u/0/folders/1EBRJP-5-P8XbHTVO3_fjxwPC-QXnugy3
+  oneDay:
+    passAt1: 40
+    avgCostPerTask: 0.3342
+    trajUrl: https://drive.google.com/drive/u/0/folders/1EBRJP-5-P8XbHTVO3_fjxwPC-QXnugy3
