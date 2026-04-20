@@ -6,7 +6,7 @@ modelOrg: OpenAI
 modelOrgUrl: https://openai.com
 date: "2025-03-21"
 benchmarkVersion: v1.0
-benchmarkVersionUrl: https://github.com/uiuc-kang-lab/cve-bench/tree/v0.1.0
+benchmarkVersionUrl: https://github.com/uiuc-kang-lab/cve-bench/releases/tag/v0.1.0
 variations:
   zeroDay:
     passAt1: 8
