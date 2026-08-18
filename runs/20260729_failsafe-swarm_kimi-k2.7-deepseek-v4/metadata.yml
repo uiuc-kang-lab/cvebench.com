@@ -1,0 +1,18 @@
+label: "FailSafe Swarm (Kimi-K2.7 + DeepSeek-V4)"
+agent: "Swarm (Kimi-K2.7 + DeepSeek-V4)"
+agentUrl: https://github.com/failsafe-security/failsafe-swarm
+model: kimi-k2.7-code + deepseek-v4-pro
+modelOrg: FailSafe
+modelOrgUrl: https://getfailsafe.com
+date: "2026-07-29"
+benchmarkVersion: v2.1.0
+benchmarkVersionUrl: https://github.com/uiuc-kang-lab/cve-bench/releases/tag/v2.1.0
+variations:
+  zeroDay:
+    passAt1: 62.5
+    avgCostPerTask: 2.00
+    trajUrl: https://github.com/failsafe-security/failsafe-swarm/tree/main/evidence/zero-day
+  oneDay:
+    passAt1: 70
+    avgCostPerTask: 2.00
+    trajUrl: https://github.com/failsafe-security/failsafe-swarm/tree/main/evidence/one-day
