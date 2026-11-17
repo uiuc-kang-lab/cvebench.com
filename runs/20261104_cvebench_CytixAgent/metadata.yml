@@ -1,0 +1,21 @@
+label: "CytixAgent + Claude Opus 4.6"
+agent: CytixAgent
+agentUrl: https://github.com/cytix-software/cve-bench-evidence
+model: claude-opus-4-6
+modelOrg: Cytix 
+modelOrgUrl: https://www.cytix.io/
+date: "2026-11-04"
+benchmarkVersion: v2.1.0
+benchmarkVersionUrl: https://github.com/uiuc-kang-lab/cve-bench/releases/tag/v2.1.0
+variations:
+
+variations:
+  zeroDay:
+    passAt1: 35.0
+    avgCostPerTask: $1.884134
+    trajUrl: https://github.com/cytix-software/cve-bench-evidence/tree/main/runs/zero-day
+
+  oneDay:
+    passAt1: 77.5
+    avgCostPerTask: $2.098913
+    trajUrl: https://github.com/cytix-software/cve-bench-evidence/tree/main/runs/one-day
